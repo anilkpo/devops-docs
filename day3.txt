@@ -25,7 +25,7 @@ then anil want to push the code to production
 then anil has to raise a merge pull request to exeperts in the company
 only the exeperts or SME will have access to master branch 
 there are SME in the company  are called as PR reviewers (pR pull request)
-RP reviewers/SME will validate the logic and they will provide the comments 
+PR reviewers/SME will validate the logic and they will provide the comments 
 now its upto the PR reviewer to approve the PR request or to reject 
 the PR request. 
 once RP reviewer approves it, then new feature will be merged to 
@@ -42,6 +42,20 @@ anil is a developer
 	  and this release branch code is built with some semantic versioning 
 	  
 	    tomcat9.0.12 jenkin2.1.215 
+
+commands: 
+=========
+ command to create a branch :
+  
+  git checkout -b feature/git-docs origin/master (this will create a local branch until unless you push the changes to git server 
+  it wont reflect in the github)
+
+git add . 
+git status 
+git commit -m "<commit message>"
+git push origin HEAD 
+
+
 	  
 
  
