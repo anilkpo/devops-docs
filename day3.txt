@@ -1,0 +1,48 @@
+
+what is a branch in git ?? 
+
+branching a stragety to not to distrub the production code. 
+Always we have production code in master branch 
+
+if developers use this master branch and make changes to that master 
+branch then there is a chance of having issues/bugs in code. 
+or the code compaliation may fail or the build may fail. or some functionality
+may break in production systems.
+
+so we will never give access to master branch. if developers want to work 
+with master branch they can create there on branchs from master. 
+it is like making a copy of master branch. each branch can have its own 
+name.so developers can work on the newly created branches and they make 
+changes to their local branches.once the code is completly tested then developers
+can raise a merge pull request to master branch. 
+
+
+anil is a developer in flipkart 
+anil will create a master copy (branch)of production code. 
+anil will start working on the new branch.
+anil will make changes to new branch 
+then anil want to push the code to production
+then anil has to raise a merge pull request to exeperts in the company
+only the exeperts or SME will have access to master branch 
+there are SME in the company  are called as PR reviewers (pR pull request)
+RP reviewers/SME will validate the logic and they will provide the comments 
+now its upto the PR reviewer to approve the PR request or to reject 
+the PR request. 
+once RP reviewer approves it, then new feature will be merged to 
+master branch and a release will be created from the master branch 
+and code will be released from the release branch. 
+
+
+anil is a developer 
+      feature  --> new feature or functionality is in developement stage 
+	  develope branch --> new feature is developed it will merged with 
+	  development code  where nightly builds are given 
+	   If everything works feature branch will be merged --> master 
+	  from master --> release branch will be created 
+	  and this release branch code is built with some semantic versioning 
+	  
+	    tomcat9.0.12 jenkin2.1.215 
+	  
+
+ 
+
