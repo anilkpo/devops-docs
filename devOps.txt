@@ -1,0 +1,109 @@
+Introduction:
+==============
+    Devops is a kind of software development lifecycle which will provide continuos delivery with high quality software. DevOPs will act as a bridge between 
+Software Development and IT operations. we have a common problem in enterprise organizations where Dev and operations teams had clashes when any major issues
+or disaster happens. People has egos and conversations endup with some temporary solutions which is not a standard solution. though teams are working 
+in agile mode still here and there we had issues with agile.To solve this problem Devops has been introduced. Most of the devops principles came from 
+agile methodology. The Idea behind devops is to make delivery teams responsible for the production issues or fixes, whether they legacy or new bugs in the product.
+
+How Devops solved the problem:
+==============================
+   People can have Egos,but not with the software tools.Devops has solved this problem by introducing different set of tools which will help developers and operations 
+team to identify the issues and solve them in time and deliver the quality software in short time. The differnt set of tools are called as toolchains.
+toolchains includes following catageories:
+  1. coding 
+  2. Building
+  3. Testing
+  4. Packging 
+  5. Release
+  6. configuration
+  7. Monitoring
+  8. Continous Integations 
+  9. Infrastructure as Code 
+
+ 
+1.coding:
+==========
+   The tools that are used for code development and review and source code management will fall under this category examples given as follows 
+
+Code Editors: Eclipse,IntelliJ,VScode
+scm tools : svn,gitlab,github,bitbucket,etc 
+
+2.Building:
+===========
+   These tools are used for building the source code and verifying the build status like build successfull or failed and reasons for failures.
+   These tools not only build the source code they also brings automating the build process into enterprise world. Few examples for build tools are as follows
+
+source code build tools: ant,maven,gradle,grunt,gulp etc
+Build Automation tools: Bamboo,jenkins, circeCI, Teamcity etc 
+
+3. Testing:
+===========
+    Any software that is developed has to cross this Testing phase. This phase is a key phase for building a quality software.Traditional Testing procedure
+ takes much time to test the functionalities of the software and it is too slow.we have a mith to clear, in testing we have automated testing and 
+continious testing. Most of them understands it as same, but it is not correct. continious testing dependent on automated testing its a advanced version of
+automated testing. Few examples for Testing tools are as follows.
+
+Testing tools:
+  Selinum,Appium,RFT etc
+
+4.packing:
+==========
+   once the software is ready, it is packaged and maintained in a centralized location called as software repository, in simple term its a storage location 
+where application dependencies are stored in the different formats like jar or war or it can be a docker images etc. each tool has its own repository
+few examples are as follows,
+
+examples: maven repository,yum repository,jfrog,nexsus,dockerhub etc..
+
+5.Release:
+==========
+  Application Release reffers  to the process of packaging and deploying application or upgrading an application and maintains application state.few examples are given as follows
+
+examples:
+     puppet,chef,shell scripts etc
+
+
+6.configuation:
+================
+     configurations can be divided into 2 types, 
+      1. Infrasturcture configuration and management required for application deployment 
+      2. Application configurations to run the application to give best performance. 
+ The Infrastructure configurations and management can be acheived using IAC tools, IAC stands for infrastructure as code. 
+IAC is the process of managing and provisioining Virtual machines in either data centers or in cloud environments like amazaon or google cloud. Few tools for managing infrastructure is as follows.
+
+Examples:
+   puppet,chef,ansible,terraform,etc
+
+Note: these tools can be used to manage application configurations as well.
+
+7.Monitoring :
+==============
+  Application Monitoring is key concept to measure the application performance. Performance is also divided into 2 categories 
+   1. Application performance monitoring 
+   2. Infra structure monitoring 
+
+1. Application Monitoring:
+==========================
+     Application contains many services each service need to be monitored like the tps of the service, failure count of the service, peak load on the service, etc 
+
+2. Infra structure Monitoring :
+===============================
+     It is also manadatory to monitor infrastructure, like cpu utilization on the node, disk utilization,open connections on  the nodes etc. 
+
+Few examples of monitoring tools are given as follows:
+    nagios, zabbix, Graphana,kibana,splunk,datadog etc
+
+
+   
+
+
+
+
+  
+
+ 
+
+
+ 
+
+
